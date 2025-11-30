@@ -238,18 +238,6 @@ GitHub Pages automáticamente detecta los cambios y **re-publica el sitio en ~1 
 
 ---
 
-## 📈 Estadísticas de GitHub
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cecyramos&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=cecyramos&layout=compact&theme=radical)
-
-</div>
-
----
-
 ## 🎯 Habilidades Blandas
 
 - 🧩 **Resolución de Problemas**: Capacidad analítica para identificar y solucionar desafíos técnicos
