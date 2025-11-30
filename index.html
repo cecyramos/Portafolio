@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Full Stack Developer</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navbar Bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="#inicio">Cecilia Ramos Alcatruz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navegación Lateral -->
+  <nav class="side-nav d-none d-lg-block">
+    <a href="#inicio" class="active"></a>
+    <a href="#proyectos"></a>
+    <a href="#habilidades"></a>
+    <a href="#hobbies"></a>
+    <a href="#contacto"></a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero-section d-flex align-items-center" style="margin-top: 56px;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 text-dark mb-4 mb-lg-0">
+          <h1 class="display-2 fw-bold mb-3">
+            <span class="text-white">Full Stack</span><br>
+            Developer.
+          </h1>
+          <p class="lead mb-4">
+            Soy una apasionada del desarrollo web que comienza su camino en este campo, pero con una sólida base gracias a mi experiencia como consultora funcional para una empresa de desarrollo de software. Me cautiva el poder de la tecnología para transformar vidas y mejorar la eficiencia, lo que me impulsa a aprender y crear soluciones web innovadoras y fáciles de utilizar. 
+          </p>
+          <a href="#proyectos" class="btn btn-dark btn-lg rounded-pill px-5">Ver Proyectos</a>
+        </div>
+        <div class="col-lg-5 text-center">
+          <img loading="lazy" src="assets/photo.jpg"
+               alt="Foto de perfil" class="hero-img rounded-3 shadow-lg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="py-5">
+    <div class="container py-5">
+      <h2 class="display-4 fw-bold text-end text-primary-custom mb-5">Proyectos</h2>
+      <div class="row g-4">
+
+        <!-- Proyecto 1 -->
+        <div class="col-lg-4">
+          <a href="https://github.com/cecyramos/evaluacion_portafolio_4.git" target="_blank" class="card-link-wrapper">
+            <div class="card h-100 border-0 shadow card-hover">
+              <div class="card-body p-4">
+                <h3 class="h4 text-primary-custom fw-bold mb-3">Mini Proyectos Python</h3>
+                <p class="text-muted">
+                  Scripts que demuestran competencias en variables, estructuras, ciclos, funciones
+                  y uso de GitHub.
+                </p>
+                <img src="assets/mini_proyectos_python.png" class="card-img-top project-thumb" alt="Mini Proyectos Python">
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="col-lg-4 mt-lg-5">
+          <a href="https://github.com/cecyramos/evaluacion_portafolio_5.git" target="_blank" class="card-link-wrapper">
+            <div class="card h-100 border-0 shadow card-hover">
+              <div class="card-body p-4">
+                <h3 class="h4 text-primary-custom fw-bold mb-3">Bases de Datos Relacionales</h3>
+                <p class="text-muted">
+                  Scripts SQL, modelo ER, consultas, DDL, DML y stored procedures.
+                </p>
+                <img src="assets/bases_de_datos_relacionales.png" class="card-img-top project-thumb" alt="Bases de Datos Relacionales">
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="col-lg-4 mt-lg-5" style="margin-top: 4rem !important;">
+          <a href="https://github.com/cecyramos/evaluacion_portafolio_6.git" target="_blank" class="card-link-wrapper">
+            <div class="card h-100 border-0 shadow card-hover">
+              <div class="card-body p-4">
+                <h3 class="h4 text-primary-custom fw-bold mb-3">App de Recetas con Django</h3>
+                <p class="text-muted">
+                  App con registro, login, CRUD de recetas y panel admin personalizado.
+                </p>
+                <img src="assets/app_de_recetas_django.png" class="card-img-top project-thumb" alt="App de Recetas Django">
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="py-5 bg-primary-custom text-white">
+    <div class="container py-5">
+      <h2 class="display-4 fw-bold mb-5">Habilidades</h2>
+      <div class="row g-4">
+        <div class="col-lg-4 mt-lg-5" style="margin-top: 4rem !important;">
+          <div class="card h-100 bg-transparent border border-white border-2 text-white card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold mb-3">Habilidades Técnicas</h3>
+              <p>
+                Full Stack Development, HTML5, CSS3, JavaScript, Python, Django, SQL, GitHub, Bootstrap, jQuery, Analisis de Datos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5">
+          <div class="card h-100 bg-transparent border border-white border-2 text-white card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold mb-3">Habilidades Blandas</h3>
+              <p>
+                Resolución de Problemas, Comunicación Efectiva, Trabajo en Equipo, Adaptabilidad, Gestión del Tiempo, Pensamiento Crítico, Atención al Detalle.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card h-100 bg-transparent border border-white border-2 text-white card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 fw-bold mb-3">Comptencias Linguisticas</h3>
+              <p>
+                Español: Nativo
+              </p>
+              <p>
+                Inglés: Avanzado - C1
+              </p>
+              <p>
+                Francés: Intermedio - B1
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies" class="py-5">
+    <div class="container py-5">
+      <h2 class="display-4 fw-bold text-end text-primary-custom mb-5">Hobbies</h2>
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-accent-custom fw-bold mb-3">🧩​ Juegos de lógica y rompecabezas</h3>
+              <p class="text-muted">
+                Disfruto de resolver sudokus, puzzles y otros desafíos lógicos que entrenan mi pensamiento analítico y capacidad de resolución de problemas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-accent-custom fw-bold mb-3">🌎​ Viajar y explorar nuevas culturas</h3>
+              <p class="text-muted">
+                Me apasiona conocer nuevas culturas y experiencias, lo que me ayuda a mantener la mente abierta y a adaptarme rápidamente a distintos entornos y proyectos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-5" style="margin-top: 4rem !important;">
+          <div class="card h-100 border-0 shadow card-hover">
+            <div class="card-body p-4">
+              <h3 class="h4 text-accent-custom fw-bold mb-3">🎵​ Música y creatividad</h3>
+              <p class="text-muted">
+                Me distraigo tocando piano, violín, guitarra, flauta y otros instrumentos. Estas actividades fortalecen mi disciplina, paciencia y creatividad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h3 class="mb-3">¡Trabajemos juntos!</h3>
+      <p class="text-white mb-4">¿Tienes un proyecto en mente? Contáctame y hagamos realidad tu idea.</p>
+      
+      <div class="social-icons">
+        <a href="https://github.com/cecyramos" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ceciliaramosalcatruz" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://wa.me/+56945160340" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">
+          <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+        <a href="mailto:c.e.c.y_92_@hotmail.com" class="btn btn-outline-light rounded-circle mx-2" style="width: 50px; height: 50px;">
+          <i class="fas fa-envelope fa-2x"></i>
+        </a>
+      </div>
+
+      <hr class="bg-secondary">
+      <p class="text-white mb-0">&copy; 2025 Cecilia Ramos Alcatruz - Full Stack Developer. Hecho con CSS, Bootstrap y jQuery</p>
+    </div>
+  </footer>
+
+  <!-- Botón Scroll Top -->
+  <button id="btnScrollTop">↑</button>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS Personalizado -->
+    <script src="assets/script.js"></script>
+</body>
+</html>
