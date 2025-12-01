@@ -30,6 +30,7 @@ Mi enfoque combina pensamiento analítico, atención al detalle y una constante 
 
 <div align="center">
   
+[![App en Vivo](https://img.shields.io/badge/App_en_Vivo-OnRender-46E3B7?style=for-the-badge&logo=render)](https://evaluacion-portafolio-6.onrender.com)
 [![Demo](https://img.shields.io/badge/Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/mKRCTpHwunk)
 [![Diseño](https://img.shields.io/badge/Diseño-Behance-1769FF?style=for-the-badge&logo=behance)](https://www.behance.net/gallery/239580537/App-de-Recetas-con-Django)
 [![Código](https://img.shields.io/badge/Código-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/cecyramos/evaluacion_portafolio_6.git)
@@ -348,12 +349,7 @@ Hablo **tres idiomas** (español, inglés, francés) y tengo experiencia intercu
 
 ## 🎯 Objetivos 2025
 
-- [ ] Contribuir a proyectos open source
-- [ ] Obtener certificación en Django avanzado
-- [ ] Aprender React o Vue.js
-- [ ] Desarrollar una aplicación SaaS completa
-- [ ] Participar en hackathons
-- [ ] Conseguir mi primer rol como Full Stack Developer
+- [ ] Obtener certificación Talento Digital Python FullStack + Django
 
 ---
 
